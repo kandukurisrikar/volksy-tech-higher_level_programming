@@ -3,7 +3,7 @@
 
 
 class Square:
-    '''size'''
-    def _init_(square, size):
-
-        square.__size = size
+    '''square class'''
+    def _init_(self, size):
+        """size of square"""
+        self.__size = size
