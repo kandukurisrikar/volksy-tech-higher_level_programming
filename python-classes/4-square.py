@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """string"""
 
+
 class square:
     """string size"""
 
@@ -21,4 +22,3 @@ class square:
 
     def area(self):
         return self.__size * self.__size
-
