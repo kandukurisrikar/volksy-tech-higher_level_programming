@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-"""string size"""
+"""class"""
 
 
 class Square:
-    '''size'''
-    def __init__(square, size=0):
-
+    ''' square size'''
+    def __init__(self, size=0):
+        """Constructor"""
         if type(size) is not int:
-            raise typeerror("value is not integer")
+            raise TypeError("size must be an integer")
         if size < 0:
-            raise valueerror("value is less than 0")
-
+            raise ValueError("size must be >=0")
         square.__size = size
 
-    def area(square):
+    def area(self):
         """Area of square"""
         return (square._size * square._size)
