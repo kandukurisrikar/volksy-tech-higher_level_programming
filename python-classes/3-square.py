@@ -6,7 +6,7 @@ class Square:
     '''size'''
     def __init__(square, size=0):
 
-        if type(size) != int:
+        if type(size) is not int:
             raise typeerror("value is not integer")
         if size < 0:
             raise valueerror("value is less than 0")
@@ -14,4 +14,5 @@ class Square:
         square.__size = size
 
     def area(square):
-        return square._size*square._size
+        """Area of square"""
+        return (square._size * square._size)
