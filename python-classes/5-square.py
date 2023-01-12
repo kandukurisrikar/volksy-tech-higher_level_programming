@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""strng"""
+"""string"""
 
 
 class Square:
@@ -26,7 +26,7 @@ class Square:
     def my_print(self):
         if self.__size == 0:
             print("")
-        for i in range(0, self._size):
-            for j i range(0, self._size):
-                print("#" ,end="")
+        for i in range(0, self.__size):
+            for j i range(0, self.__size):
+                print("#", end="")
             print()
