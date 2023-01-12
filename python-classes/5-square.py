@@ -19,14 +19,14 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-        def area(self):
-            a = self.__size * self.__size
-            return a
+    def area(self):
+        a = self.__size * self.__size
+        return a
 
-        def my_print(self):
-            if self.__size == 0:
-                print("")
-            for i in range(0, self._size):
-                for j i range(0, self._size):
-                    print("#" ,end="")
-                print()
+    def my_print(self):
+        if self.__size == 0:
+            print("")
+        for i in range(0, self._size):
+            for j i range(0, self._size):
+                print("#" ,end="")
+            print()
