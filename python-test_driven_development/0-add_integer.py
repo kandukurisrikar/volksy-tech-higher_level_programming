@@ -1,21 +1,18 @@
 #!/usr/bin/python3
-""" 0. Integers addition """
+"""
+    Insert here module comment
+"""
 
 
 def add_integer(a, b=98):
-    """ Function that adds two integers.
-    Args:
-        a: first integer for addition
-        b: second integer for addition
-    Returns:
-        sum of two integers
-    Raises:
-        TypeError: if not an int or float
-    Doctest Examples:
-        see dir: /tests/0-add_integer.txt
-    """
-    if isinstance(a, (int, float)) is False:
+    """ add two integers or flots """
+    if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
-    if isinstance(b, (int, float)) is False:
+    if type(b) is not int and type(b) is not float:
         raise TypeError("b must be an integer")
+    if type(a) is float:
+        a = int(a)
+    if type(b) is float:
+        b = int(b)
+    return (a + b)
     return int(a) + int(b)
