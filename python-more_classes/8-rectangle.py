@@ -102,4 +102,11 @@ class Rectangle:
         h = str(self.__height)
 
         res = "Rectangle(" + w + ", " + h + ")"
+        return res
 
+    def __del__(self):
+        """ Print a message for del
+            Decrement instance when del is called
+        """
+        print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
