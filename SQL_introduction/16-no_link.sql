@@ -1,2 +1,2 @@
 -- HI
-SELECT score,name FROM second_table WHERE name != '' ORDERE BY score DESC;
+SELECT score,name FROM second_table WHERE name != '' ORDER BY score DESC;
