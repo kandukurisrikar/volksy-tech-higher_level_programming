@@ -1,2 +1,2 @@
 -- HI
-DROP FROM second_table where score <= 5;
+DROP FROM second_table WHERE score <= 5;
