@@ -1,0 +1,2 @@
+-- hi
+show databases;
