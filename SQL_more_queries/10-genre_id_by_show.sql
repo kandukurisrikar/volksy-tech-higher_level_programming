@@ -35,27 +35,3 @@ ORDER BY tv_shows.title, tv_show_genres.genre_id ASC;
 ~
 ~
 ~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                                                                                                                                    4,37          All
- 
